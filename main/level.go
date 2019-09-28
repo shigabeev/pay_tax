@@ -1,5 +1,5 @@
 components {
-  id: "level_1"
+  id: "level_script"
   component: "/main/level.script"
   position {
     x: 0.0

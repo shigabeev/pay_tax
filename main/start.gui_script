@@ -14,9 +14,7 @@ function on_message(self, message_id, message, sender)
 end
 
 function on_input(self, action_id, action)
-	print("qweqweqwe")
-	if action_id == hash("touch") and action.pressed and self.active then
-		print("ty pidor")       
+	if action_id == hash("touch") and action.pressed and self.active then       
 		local start = gui.get_node("start_text")
 		if gui.pick_node(start, action.x, action.y) then
 			msg.post("#", "hide_start")

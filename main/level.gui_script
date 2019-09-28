@@ -1,5 +1,6 @@
 function on_message(self, message_id, message, sender)
 	if message_id == hash("level_completed") then                       -- [1]
+		print('hey')
 		local done = gui.get_node("done")
 		gui.animate(done, "position.x", 320, gui.EASING_OUTSINE, 1, 1.5)
 	end

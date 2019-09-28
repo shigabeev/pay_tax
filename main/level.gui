@@ -178,7 +178,7 @@ nodes {
   line_break: false
   parent: "back"
   layer: ""
-  inherit_alpha: true
+  inherit_alpha: false
   alpha: 1.0
   outline_alpha: 1.0
   shadow_alpha: 1.0
@@ -357,7 +357,7 @@ nodes {
   line_break: false
   parent: "done"
   layer: ""
-  inherit_alpha: true
+  inherit_alpha: false
   alpha: 1.0
   outline_alpha: 1.0
   shadow_alpha: 1.0
@@ -406,7 +406,7 @@ nodes {
   adjust_mode: ADJUST_MODE_FIT
   parent: "done"
   layer: ""
-  inherit_alpha: true
+  inherit_alpha: false
   slice9 {
     x: 0.0
     y: 0.0
