@@ -1,72 +1,51 @@
 images {
-  image: "/assets/images/blue.png"
+  image: "/assets/images/pay_tax/bg.png"
 }
 images {
-  image: "/assets/images/green.png"
+  image: "/assets/images/pay_tax/bg_main.png"
 }
 images {
-  image: "/assets/images/grey.png"
+  image: "/assets/images/pay_tax/chef.png"
 }
 images {
-  image: "/assets/images/red.png"
+  image: "/assets/images/pay_tax/cook_person.png"
 }
 images {
-  image: "/assets/images/yellow.png"
+  image: "/assets/images/pay_tax/designer_person.png"
 }
 images {
-  image: "/assets/images/eyeball_angry_left.png"
+  image: "/assets/images/pay_tax/farmer.png"
 }
 images {
-  image: "/assets/images/eyeball_angry_right.png"
+  image: "/assets/images/pay_tax/farmer_person.png"
 }
 images {
-  image: "/assets/images/eyeball_happy_left.png"
+  image: "/assets/images/pay_tax/guitar.png"
 }
 images {
-  image: "/assets/images/eyeball_happy_right.png"
+  image: "/assets/images/pay_tax/logo.png"
 }
 images {
-  image: "/assets/images/left_angry.png"
+  image: "/assets/images/pay_tax/musician_person.png"
 }
 images {
-  image: "/assets/images/left_angry_blink.png"
+  image: "/assets/images/pay_tax/paint-palette.png"
 }
 images {
-  image: "/assets/images/left_happy.png"
+  image: "/assets/images/pay_tax/taxi.png"
 }
 images {
-  image: "/assets/images/left_happy_blink.png"
+  image: "/assets/images/pay_tax/taxi_driver_person.png"
 }
 images {
-  image: "/assets/images/right_angry.png"
+  image: "/assets/images/pay_tax/touragent_person.png"
 }
 images {
-  image: "/assets/images/right_angry_blink.png"
+  image: "/assets/images/pay_tax/tourist.png"
 }
 images {
-  image: "/assets/images/right_happy.png"
-}
-images {
-  image: "/assets/images/right_happy_blink.png"
-}
-images {
-  image: "/assets/images/mouth_angry_closed.png"
-}
-images {
-  image: "/assets/images/mouth_angry_open.png"
-}
-images {
-  image: "/assets/images/mouth_happy_closed.png"
-}
-images {
-  image: "/assets/images/mouth_happy_open.png"
-}
-images {
-  image: "/assets/images/logo.png"
-}
-images {
-  image: "/assets/images/button.png"
+  image: "/assets/images/pay_tax/button.png"
 }
 margin: 0
-extrude_borders: 0
+extrude_borders: 2
 inner_padding: 0

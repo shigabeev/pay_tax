@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/main/brick/brick.script"
+  component: "/stars/factory.script"
   position {
     x: 0.0
     y: 0.0
@@ -14,12 +14,10 @@ components {
   }
 }
 embedded_components {
-  id: "sprite"
-  type: "sprite"
-  data: "tile_set: \"/assets/old_yellow_bricks.atlas\"\n"
-  "default_animation: \"blue\"\n"
-  "material: \"/builtins/materials/sprite.material\"\n"
-  "blend_mode: BLEND_MODE_ALPHA\n"
+  id: "star_factory"
+  type: "factory"
+  data: "prototype: \"/stars/star.go\"\n"
+  "load_dynamically: false\n"
   ""
   position {
     x: 0.0

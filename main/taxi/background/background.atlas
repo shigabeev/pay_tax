@@ -1,0 +1,18 @@
+images {
+  image: "/main/taxi/background/bg.png"
+}
+images {
+  image: "/main/taxi/background/earthlike_planet.png"
+}
+images {
+  image: "/main/taxi/background/gas_planet.png"
+}
+images {
+  image: "/main/taxi/background/ice_planet.png"
+}
+images {
+  image: "/main/taxi/background/ring_planet.png"
+}
+margin: 0
+extrude_borders: 1
+inner_padding: 0
