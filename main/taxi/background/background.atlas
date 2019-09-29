@@ -1,5 +1,5 @@
 images {
-  image: "/main/taxi/background/bg.png"
+  image: "/assets/images/taxi/road.png"
 }
 images {
   image: "/main/taxi/background/earthlike_planet.png"

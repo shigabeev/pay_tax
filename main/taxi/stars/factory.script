@@ -1,7 +1,7 @@
 local frequency = 0.5
 local bonus_prob = 0.2
 local min_x = 60
-local max_x = 2000
+local max_x = 640*2
 --границы экрана
 
 function init(self)
@@ -15,7 +15,7 @@ function update(self, dt)
 	if self.timer <= 0 then
 		self.timer = 1/frequency
 		local p = go.get_position()
-		p.y = 800
+		p.y = 1152
 		p.x = vmath.lerp(math.random(), min_x, max_x)
 		local component = "#star_factory"
 		if math.random() < bonus_prob then

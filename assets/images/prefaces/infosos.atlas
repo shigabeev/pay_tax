@@ -1,0 +1,9 @@
+images {
+  image: "/assets/images/prefaces/farmer.png"
+}
+images {
+  image: "/assets/images/prefaces/taxi_driver.png"
+}
+margin: 0
+extrude_borders: 2
+inner_padding: 0

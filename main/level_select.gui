@@ -1136,7 +1136,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "SELECT LEVEL"
+  text: "SELECT PLAYER"
   font: "Neon"
   id: "title"
   xanchor: XANCHOR_NONE

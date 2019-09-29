@@ -1,31 +1,7 @@
 animations {
   id: "spin"
   images {
-    image: "/main/taxi/spaceship/spaceship_00.png"
-  }
-  images {
-    image: "/main/taxi/spaceship/spaceship_01.png"
-  }
-  images {
-    image: "/main/taxi/spaceship/spaceship_02.png"
-  }
-  images {
-    image: "/main/taxi/spaceship/spaceship_03.png"
-  }
-  images {
-    image: "/main/taxi/spaceship/spaceship_04.png"
-  }
-  images {
-    image: "/main/taxi/spaceship/spaceship_05.png"
-  }
-  images {
-    image: "/main/taxi/spaceship/spaceship_06.png"
-  }
-  images {
-    image: "/main/taxi/spaceship/spaceship_07.png"
-  }
-  images {
-    image: "/main/taxi/spaceship/spaceship_08.png"
+    image: "/assets/images/taxi/taxi.png"
   }
   playback: PLAYBACK_LOOP_FORWARD
   fps: 30
