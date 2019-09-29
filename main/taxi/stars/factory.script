@@ -1,7 +1,7 @@
 local frequency = 0.5
 local bonus_prob = 0.2
 local min_x = 60
-local max_x = 640*2
+local max_x = 640*2-60
 --границы экрана
 
 function init(self)

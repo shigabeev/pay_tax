@@ -39,6 +39,9 @@ function on_message(self, message_id, message)
 			go.set_position(p)
 		end		
 	end
+
+
+	
 end
 
 function on_input(self, action_id, action)
@@ -46,5 +49,11 @@ function on_input(self, action_id, action)
 		self.speed = -max_speed
 	elseif action_id == hash("right") then
 		self.speed = max_speed
+	elseif action_id == hash("touch") and action.pressed then
+		if action.x < 300 then
+			self.speed = -max_speed*3
+		else
+			self.speed = max_speed*3
+		end
 	end
 end
