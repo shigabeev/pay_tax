@@ -46,6 +46,9 @@ images {
 images {
   image: "/assets/images/pay_tax/button.png"
 }
+images {
+  image: "/assets/images/pay_tax/delete-button.png"
+}
 margin: 0
 extrude_borders: 2
 inner_padding: 0

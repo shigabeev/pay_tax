@@ -267,8 +267,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Quick start\n"
-  ""
+  text: "\320\221\320\253\320\241\320\242\320\240\320\220\320\257 \320\230\320\223\320\240\320\220"
   font: "Neon"
   id: "start_text"
   xanchor: XANCHOR_NONE
@@ -440,8 +439,7 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Career\n"
-  "\n"
+  text: "\320\232\320\220\320\240\320\254\320\225\320\240\320\220\n"
   ""
   font: "Neon"
   id: "start_text1"
