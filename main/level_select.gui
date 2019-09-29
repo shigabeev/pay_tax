@@ -3,6 +3,10 @@ fonts {
   name: "headings"
   font: "/assets/headings.font"
 }
+fonts {
+  name: "Neon"
+  font: "/assets/fonts/Neon.font"
+}
 textures {
   name: "bricks"
   texture: "/assets/bricks.atlas"
@@ -1113,8 +1117,8 @@ nodes {
     w: 1.0
   }
   scale {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
     z: 1.0
     w: 1.0
   }
@@ -1133,7 +1137,7 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: "SELECT LEVEL"
-  font: "headings"
+  font: "Neon"
   id: "title"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE

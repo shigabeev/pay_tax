@@ -3,6 +3,10 @@ fonts {
   name: "headings"
   font: "/assets/headings.font"
 }
+fonts {
+  name: "Neon"
+  font: "/assets/fonts/Neon.font"
+}
 textures {
   name: "bricks"
   texture: "/assets/bricks.atlas"
@@ -226,7 +230,7 @@ nodes {
   clipping_mode: CLIPPING_MODE_NONE
   clipping_visible: true
   clipping_inverted: false
-  alpha: 1.0
+  alpha: 0.0
   template_node_child: false
   size_mode: SIZE_MODE_MANUAL
 }
@@ -244,8 +248,8 @@ nodes {
     w: 1.0
   }
   scale {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
     z: 1.0
     w: 1.0
   }
@@ -263,8 +267,9 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "Start"
-  font: "headings"
+  text: "Quick start\n"
+  ""
+  font: "Neon"
   id: "start_text"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -398,7 +403,7 @@ nodes {
   clipping_mode: CLIPPING_MODE_NONE
   clipping_visible: true
   clipping_inverted: false
-  alpha: 1.0
+  alpha: 0.0
   template_node_child: false
   size_mode: SIZE_MODE_MANUAL
 }
@@ -416,8 +421,8 @@ nodes {
     w: 1.0
   }
   scale {
-    x: 2.0
-    y: 2.0
+    x: 1.0
+    y: 1.0
     z: 1.0
     w: 1.0
   }
@@ -438,7 +443,7 @@ nodes {
   text: "Career\n"
   "\n"
   ""
-  font: "headings"
+  font: "Neon"
   id: "start_text1"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
