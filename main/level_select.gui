@@ -78,7 +78,7 @@ nodes {
 nodes {
   position {
     x: 195.0
-    y: 750.0
+    y: 808.0
     z: 0.0
     w: 1.0
   }
@@ -187,7 +187,7 @@ nodes {
 nodes {
   position {
     x: 0.0
-    y: 0.0
+    y: -129.0
     z: 0.0
     w: 1.0
   }
@@ -217,8 +217,8 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "1"
-  font: "headings"
+  text: "\320\237\320\276\320\262\320\260\321\200"
+  font: "Roboto"
   id: "1_text"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -250,7 +250,7 @@ nodes {
 nodes {
   position {
     x: 455.0
-    y: 750.0
+    y: 808.0
     z: 0.0
     w: 1.0
   }
@@ -359,7 +359,7 @@ nodes {
 nodes {
   position {
     x: 0.0
-    y: 0.0
+    y: -129.0
     z: 0.0
     w: 1.0
   }
@@ -389,8 +389,8 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "2"
-  font: "headings"
+  text: "\320\245\321\203\320\264\320\276\320\266\320\275\320\270\320\272"
+  font: "Roboto"
   id: "2_text"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -422,7 +422,7 @@ nodes {
 nodes {
   position {
     x: 195.0
-    y: 475.0
+    y: 533.0
     z: 0.0
     w: 1.0
   }
@@ -531,7 +531,7 @@ nodes {
 nodes {
   position {
     x: 0.0
-    y: 0.0
+    y: -129.0
     z: 0.0
     w: 1.0
   }
@@ -561,8 +561,8 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "3"
-  font: "headings"
+  text: "\320\242\321\203\321\200\320\260\320\263\320\265\320\275\321\202"
+  font: "Roboto"
   id: "3_text"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -594,7 +594,7 @@ nodes {
 nodes {
   position {
     x: 451.0
-    y: 475.0
+    y: 533.0
     z: 0.0
     w: 1.0
   }
@@ -703,7 +703,7 @@ nodes {
 nodes {
   position {
     x: 0.0
-    y: 0.0
+    y: -129.0
     z: 0.0
     w: 1.0
   }
@@ -733,8 +733,8 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "4"
-  font: "headings"
+  text: "\320\242\320\260\320\272\321\201\320\270\321\201\321\202"
+  font: "Roboto"
   id: "4_text"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -766,7 +766,7 @@ nodes {
 nodes {
   position {
     x: 195.0
-    y: 211.0
+    y: 269.0
     z: 0.0
     w: 1.0
   }
@@ -875,7 +875,7 @@ nodes {
 nodes {
   position {
     x: 0.0
-    y: 0.0
+    y: -129.0
     z: 0.0
     w: 1.0
   }
@@ -905,8 +905,9 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "3"
-  font: "headings"
+  text: "\320\244\320\265\321\200\320\274\320\265\321\200\n"
+  ""
+  font: "Roboto"
   id: "5-text"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -938,7 +939,7 @@ nodes {
 nodes {
   position {
     x: 451.0
-    y: 211.0
+    y: 269.0
     z: 0.0
     w: 1.0
   }
@@ -1047,7 +1048,7 @@ nodes {
 nodes {
   position {
     x: 0.0
-    y: 0.0
+    y: -129.0
     z: 0.0
     w: 1.0
   }
@@ -1077,8 +1078,8 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "4"
-  font: "headings"
+  text: "\320\234\321\203\320\267\321\213\320\272\320\260\320\275\321\202"
+  font: "Roboto"
   id: "6_text"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -1110,7 +1111,7 @@ nodes {
 nodes {
   position {
     x: 330.0
-    y: 1012.0
+    y: 1003.0
     z: 0.0
     w: 1.0
   }
@@ -1171,7 +1172,7 @@ nodes {
 }
 nodes {
   position {
-    x: 106.0
+    x: 580.0
     y: 1076.0
     z: 0.0
     w: 1.0
@@ -1237,14 +1238,14 @@ nodes {
     w: 1.0
   }
   scale {
-    x: 1.0
-    y: 1.0
+    x: 0.5
+    y: 0.5
     z: 1.0
     w: 1.0
   }
   size {
-    x: 184.0
-    y: 51.0
+    x: 128.0
+    y: 128.0
     z: 0.0
     w: 1.0
   }
@@ -1256,7 +1257,7 @@ nodes {
   }
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
-  texture: "bricks/button"
+  texture: "bricks/delete-button"
   id: "back_box"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -1276,70 +1277,7 @@ nodes {
   clipping_inverted: false
   alpha: 1.0
   template_node_child: false
-  size_mode: SIZE_MODE_AUTO
-}
-nodes {
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
-  }
-  size {
-    x: 200.0
-    y: 100.0
-    z: 0.0
-    w: 1.0
-  }
-  color {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
-  }
-  type: TYPE_TEXT
-  blend_mode: BLEND_MODE_ALPHA
-  text: "x"
-  font: "Roboto"
-  id: "back_text"
-  xanchor: XANCHOR_NONE
-  yanchor: YANCHOR_NONE
-  pivot: PIVOT_CENTER
-  outline {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
-  }
-  shadow {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-    w: 1.0
-  }
-  adjust_mode: ADJUST_MODE_FIT
-  line_break: false
-  parent: "back"
-  layer: ""
-  inherit_alpha: false
-  alpha: 1.0
-  outline_alpha: 1.0
-  shadow_alpha: 1.0
-  template_node_child: false
-  text_leading: 1.0
-  text_tracking: 0.0
+  size_mode: SIZE_MODE_MANUAL
 }
 material: "/builtins/materials/gui.material"
 adjust_reference: ADJUST_REFERENCE_PARENT

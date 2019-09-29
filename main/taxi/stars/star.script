@@ -1,6 +1,12 @@
 local score = 1
 local speed = -240
 
+function init(self)
+	local nologi = {"ПСН", "НДФЛ", "Страховка себя", "Страховка сотрудника", 
+	"Транспорт", "Имущество", "Земля"}
+	label.set_text(".", nologi[ math.random(#nologi)])
+end
+
 function update(self, dt)
 	local p = go.get_position()
 	p.y = p.y + speed * dt

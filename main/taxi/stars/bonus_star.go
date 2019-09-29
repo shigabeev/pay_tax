@@ -1,6 +1,6 @@
 components {
   id: "script"
-  component: "/main/taxi/stars/star.script"
+  component: "/main/taxi/stars/bonus_star.script"
   position {
     x: 0.0
     y: 0.0
@@ -24,8 +24,8 @@ components {
   rotation {
     x: 0.0
     y: 0.0
-    z: 0.0
-    w: 1.0
+    z: 0.70710677
+    w: 0.70710677
   }
 }
 embedded_components {

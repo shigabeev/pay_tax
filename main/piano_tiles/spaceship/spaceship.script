@@ -24,20 +24,11 @@ end
 function on_message(self, message_id, message)
 	if message_id == hash("speedup") then
 		local p = go.get_position()
+		p.y = p.y + 100
+		go.set_position(p)
 		if p.y > 600 then
 			print("You won") --[]
-		else 
-			p.y = p.y + 100
-			go.set_position(p)
 		end
-	elseif message_id == hash("penalty") then
-		local p = go.get_position()
-		if p.y < 10 then
-			print("You lose") --[]
-		else 
-			p.y = p.y - 100
-			go.set_position(p)
-		end		
 	end
 end
 
