@@ -17,3 +17,6 @@ max_count = 512
 debug = 1
 type = 2D
 
+[html5]
+show_made_with_defold = 0
+
